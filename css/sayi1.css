@@ -34,6 +34,7 @@
 
 .btn-order-left {
     margin-right: 3%;
+    pointer-events: none
 }
 
 .btn-div {
