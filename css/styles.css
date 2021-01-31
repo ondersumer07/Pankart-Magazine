@@ -252,7 +252,7 @@ label {
 .sayi2Bas-card-img{
     height: 10rem;
     object-fit: cover;
-    /* object-position: 10% 0; */
+    object-position: 10% 0;
 }
 
 .card-title {
