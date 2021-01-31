@@ -248,7 +248,13 @@ label {
     height: 10rem;
     object-fit: cover;
 }
-  
+
+.sayi2Bas-card-img{
+    height: 10rem;
+    object-fit: cover;
+    object-position: 10% 0;
+}
+
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;

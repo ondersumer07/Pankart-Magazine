@@ -21,6 +21,14 @@
     text-align: center;
 }
 
+.exclaimer {
+    line-height: 1.4rem;
+}
+
+.mail-text:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 800px) {
     .btn-div {
         flex-direction: column;
