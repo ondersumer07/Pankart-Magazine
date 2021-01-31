@@ -1,0 +1,65 @@
+.content-area {
+    margin: 5% 8%;
+}
+
+.btn-order {
+    background-color: black;
+    color: white;
+    padding: 4%;
+    margin-top: 3%;
+    flex: 50%;
+}
+
+.btn-order-left {
+    margin-right: 3%;
+    pointer-events: auto;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .btn-div {
+        flex-direction: column;
+    }
+
+    .btn-order {
+        margin-right: 0;
+    }
+
+    .bottom-bar {
+        flex-direction: column;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+
+    .btn-download {
+        margin-bottom: 3%;
+    }
+}
+
+.bottom-bar {
+    position: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 0%;
+    width: auto;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none 0;
+    padding: 3%;
+    margin: 0 2% 2% 2%;
+}
+
+.page-info {
+    margin-bottom: 2%;
+}
