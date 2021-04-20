@@ -1,0 +1,62 @@
+.footer-all {
+    width: 100%;
+}
+
+
+.content-area {
+    margin: 5% 8%;
+    width: auto;
+}
+
+.eser {
+    max-width: 30rem;
+    margin-bottom: 1%;
+}
+
+.eser-area {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 0 3% 1% 0;
+}
+
+
+.exclaimer {
+    line-height: 1.4rem;
+}
+
+.story {
+    text-align: justify;
+}
+
+@media (max-width: 910px) {
+    .eser {
+        max-width: 25rem;
+    }
+
+    .content-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eser-area {
+        float: none;
+        margin: 0 0 1% 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .content-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eser-area {
+        float: none;
+        margin: 0 0 1% 0;
+    }
+}
